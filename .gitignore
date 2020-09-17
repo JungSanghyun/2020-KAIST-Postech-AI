@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Game player
+AtaxxPlayer.exe
+log.txt
+Engine/
+Ataxx/
