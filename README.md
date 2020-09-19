@@ -45,3 +45,9 @@ AI 성능 비교를 위해 만든 Random한 Valid Action을 수행하는 에이�
 제작자: 정상현
 
 Alpha-Beta Pruning 알고리즘을 적용한 에이전트. State의 Heuristic Value는 말의 개수의 차이로 설정.
+
+### MCTS Agent
+
+제작자: 정상현
+
+Monte Carlo Tree Search 알고리즘을 적용한 에이전트. Simulation Step은 Random Agent로 진행.
