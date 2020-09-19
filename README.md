@@ -37,3 +37,11 @@
 제작자: 정상현
 
 AI 성능 비교를 위해 만든 Random한 Valid Action을 수행하는 에이전트.
+
+### AlphaBeta Agent
+
+** 대회 출전 **
+
+제작자: 정상현
+
+Alpha-Beta Pruning 알고리즘을 적용한 에이전트. State의 Heuristic Value는 말의 개수의 차이로 설정.
