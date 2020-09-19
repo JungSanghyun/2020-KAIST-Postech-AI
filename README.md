@@ -29,3 +29,11 @@
 * 대결을 원하는 에이전트들의 이름을 ai1.py와 ai2.py로 설정
 * ataxx.exe와 같은 디렉토리에 넣기
 * ataxx.exe를 실행하여 log.txt가 생성
+
+## 팀 내 AI 리스트
+
+### Random Agent
+
+제작자: 정상현
+
+AI 성능 비교를 위해 만든 Random한 Valid Action을 수행하는 에이전트.
