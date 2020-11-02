@@ -6,13 +6,21 @@
 **ATAXX (세균전)**
 
 * 아래 그림처럼 7x7 판의 꼭지점에 말을 배치한다.
-  ![Initial state](image/img1.png)
+
+![Initial state](image/img1.png)
+
 * 말은 자신의 말에서 한 칸 혹은 두 칸 거리에 있는 빈 칸(아래 그림에서 연파랑 바탕으로 된 칸)에 놓을 수 있다. 가로·세로·대각선으로 한 칸 떨어진 곳(+표시한 부분)은 그 곳에 말을 더 놓을 수 있고, 두 칸 떨어진 곳(x표시한 부분)은 그 지점으로 말을 옮겨 놓아야 한다.
-  ![Movable place](image/img2.png)
+
+![Movable place](image/img2.png)
+
 * 두 칸 떨어진 곳으로 이동할 때는 이동하는 길목이 막혀 있어도 이동하려는 칸만 비어 있다면 무방하다. 아래 그림에서 연파랑 바탕으로 표시된 곳의 파란색 말은 x표시된 지점으로 이동할 수 있다.
-  ![Move rule](image/img3.png)
+
+![Move rule](image/img3.png)
+
 * 말을 둔 곳으로부터 인접한 지점(가로·세로·대각선으로 한 칸 떨어진 곳)에 상대방의 말이 있을 경우 그 말은 모두 자신의 말로 바뀐다. 예를 들어, 파란색 말이 아래 그림처럼 이동한 경우, 그 주변의 빨간색 말(연파랑 바탕으로 표시된 말)은 모두 파란색 말로 바뀐다.
-  ![Infection rule](image/img4.png)
+
+![Infection rule](image/img4.png)
+
 * 양쪽 모두 더 이상 둘 곳이 없으면 게임이 끝난다. 그 조건은 다음과 같다.
   - 말이 판 전체에 가득 찬 경우
   - 어느 한 쪽이 상대방의 말을 모두 따 낸 경우
@@ -51,3 +59,20 @@ Alpha-Beta Pruning 알고리즘을 적용한 에이전트. State의 Heuristic Va
 제작자: 정상현
 
 Monte Carlo Tree Search 알고리즘을 적용한 에이전트. Simulation Step은 Random Agent로 진행.
+
+### Rule Based Agent
+
+제작자: 유상백
+
+말을 이동했을 때, 많은 말을 획득하면서 다음 턴에 잃는 말의 수를 줄일 수 있도록 설계한 에이전트.
+
+------------
+
+### 팀 내 리그전 결과
+
+| | **Random** | **AlphaBeta** | **MCTS** | **Rule Based** | **합계** |
+| --- | --- | --- | --- | --- | --- |
+| **Random** | - | 패 | 승 | 패 | 1승 2패 |
+| **AlphaBeta** | 승 | - | 승 | 승 | 3승 0패 |
+| **MCTS** | 패 | 패 | - | 패 | 0승 3패 |
+| **Rule Based** | 승 | 패 | 승 | - | 2승 1패 |
