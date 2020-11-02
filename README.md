@@ -36,7 +36,7 @@
 
 * 대결을 원하는 에이전트들의 이름을 ai1.py와 ai2.py로 설정
 * ataxx.exe와 같은 디렉토리에 넣기
-* ataxx.exe를 실행하여 log.txt가 생성
+* ataxx.exe를 실행하면 log.txt가 생성
 
 ## 팀 내 AI 리스트
 
