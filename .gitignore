@@ -128,6 +128,12 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# pycharm
+.idea/
+
+# vscode
+.vscode/
+
 # Game player
 AtaxxPlayer.exe
 log.txt
